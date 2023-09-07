@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Clone da Landing Page da Netflix">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="src/index.css">
+</head>
+
+<body>
+    <script src="src/index.js"></script>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_brand">
+                <img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="logo" class="brand_logo">
+            </div>
+            <div class="navbar_nav_items">
+                <div class="nav_item">
+                    <div class="dropdown_container">
+                        <i class="fas fa-globe"></i>
+                        <select name="languages" id="LanguagesSelect" class="language_drop_down">
+                            <option value="english" selected style="color:black;">English</option>
+                            <option value="hindi" style="color:black;">हिन्दी</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="nav_item">
+                    <button class="signin_button">Sign in</button>
+                </div>
+            </div>
+
+
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero_bg_image_container">
+            <img class="hero_bg_image"
+                src="https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/710d74e0-7158-408e-8d9b-23c219dee5df/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg" />
+        </div>
+        <div class="hero_bg_overlay"></div>
+        <div class="hero_card">
+            <h1 class="hero_title">Unlimited Movies TV,<br />Shows and more.</h1>
+            <p class="hero_subtitle">Watch anywhere and cancel anytime</p>
+            <p class="hero_description">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="email_form_container">
+                <div class="form_container">
+                    <input type="email" class="email_input" placeholder="" />
+                    <label class="email_label">Email Address</label>
+                </div>
+                <button class="primary_button">Get Started<i class="fal fa-chevron-right"></i></button>
+            
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
